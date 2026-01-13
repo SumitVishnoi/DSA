@@ -1,0 +1,181 @@
+Level 0 – Logic Warm-up
+
+1. Find the maximum of two numbers. ✅
+
+2. Check whether a number is even or odd.✅
+
+3. Find the sum of N numbers.✅
+
+4. Check whether a number is prime.✅
+
+5. Reverse a number.
+
+6. Check whether a number is a palindrome.
+
+---------------------------------------------
+Numbers
+
+1. Print numbers from 1 to N.✅
+
+2. Print numbers from N to 1.✅
+
+3. Find the sum of digits of a number.✅
+
+4. Find the product of digits of a number.✅
+
+5. Count the number of digits in a number.❓
+
+6. Check whether a number is positive, negative, or zero.✅
+
+7. Find the largest of three numbers.✅
+
+8. Check whether a number is divisible by 5 and 11.✅
+
+9. Find the square and cube of a number.✅
+
+10. Check whether a year is a leap year.✅
+
+
+ Loops Practice
+
+11. Print the multiplication table of a number.✅
+
+12. Print all even numbers between 1 and N.✅
+
+13. Print all odd numbers between 1 and N.✅
+
+14. Find the sum of even numbers between 1 and N.✅
+
+15. Find the sum of odd numbers between 1 and N.✅
+
+16. Print all factors of a number.✅
+(hint: A factor is a number that divides N completely (remainder = 0)
+input: 12
+output: 1 2 3 4 6 12
+)
+
+17. Find the factorial of a number (using loop).✅
+(hint:
+6 → divisors: 1, 2, 3
+Sum = 1 + 2 + 3 = 6 ✅ Perfect
+
+28 → divisors: 1, 2, 4, 7, 14
+Sum = 28 ✅ Perfect
+
+10 → divisors: 1, 2, 5
+Sum = 8 ❌ Not perfect
+)
+
+18. Check whether a number is perfect number.✅
+(hint:
+Example
+
+6 → divisors: 1, 2, 3
+Sum = 1 + 2 + 3 = 6 ✅ Perfect
+
+28 → divisors: 1, 2, 4, 7, 14
+Sum = 28 ✅ Perfect
+
+10 → divisors: 1, 2, 5
+Sum = 8 ❌ Not perfect
+)
+
+19. Check whether a number is Armstrong number.
+(hint:
+Break the number digit by digit :-
+=> Use % 10 (n%10) to get the last digit(with the help I can get last digit or I can get say single digit)
+=> Use / 10 (n/10) to remove the last digit(with the help I can remove the last digit)
+
+Example :-
+n = 153
+Digits = 3
+Do: 1³ + 5³ + 3³ = 153,
+If sum = original → done ✅
+
+another example
+n = 370,
+n = 371,
+n = 9474
+)
+
+20. Print Fibonacci series up to N terms.✅
+(hint:
+next = first + second
+first = second
+second = next
+)
+
+
+🔄 Simple Conditions
+
+21. Check whether a character is vowel or consonant.✅
+
+22. Check whether a character is uppercase or lowercase.✅
+
+23. Check whether a character is an alphabet, digit, or special character.✅
+
+24. Check whether a number is multiple of 3 or 7.✅
+
+25. Find grade based on marks.✅
+
+
+🧮 Basic Math Logic
+
+26. Find LCM of two numbers.
+(hint:
+LCM(a, b) = (a × b) / GCD(a, b)
+
+GCD:
+int gcd(int a, int b) {
+    while (b != 0) {
+        int r = a % b;
+        a = b;
+        b = r;
+    }
+    return a;
+}
+
+Example:
+Numbers: 12 and 18
+Multiples of 12: 12, 24, 36, 48, …
+Multiples of 18: 18, 36, 54, …
+LCM = 36
+)
+
+27. Find HCF / GCD of two numbers.✅
+(hint:
+GCD:
+int gcd(int a, int b) {
+    while (b != 0) {
+        int r = a % b;
+        a = b;
+        b = r;
+    }
+    return a;
+}
+)
+
+28. Swap two numbers
+   • using third variable✅
+   • without using third variable✅
+
+29. Check whether a number is a power of 2.
+(hint:
+while (n % 2 == 0) {
+    n /= 2;
+}
+if (n == 1) → power of 2
+)
+
+30. Find the absolute value of a number.
+(hint:
+👉 If number is negative, make it positive
+👉 If already positive, keep it same
+
+Number 	Absolute Value
+5      	   5
+-5     	   5
+0      	   0
+12     	   12
+-12    	   12
+)

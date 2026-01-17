@@ -1,0 +1,13 @@
+Level 0 (Start here)
+
+1. Check even/odd using bitwise ✅
+
+2. Find ith bit of a number ✅
+
+3. Set ith bit ✅
+
+4. Clear ith bit
+
+5. Toggle ith bit
+
+6. Multiply/divide by 2 using shifts

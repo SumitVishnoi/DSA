@@ -1,12 +1,18 @@
 Level 1 (Next)
 
-7. Check power of 2 
+7. Check power of 2 ✅
 (hint:
  if(n > 0 && (n & (n - 1)) == 0) 
 )
 
-8. Count set bits
+8. Count set bits ✅
+(hint:
+n = (n>>1)
+)
 
-9. Swap two numbers (XOR)
-
-10. Find unique element in array
+9. Swap two numbers (XOR) ✅
+(hint:
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+)

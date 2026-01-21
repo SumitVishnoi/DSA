@@ -1,7 +1,8 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     // Q3
 
     // int n, i;
@@ -69,14 +70,41 @@ int main() {
     // }
 
     // ------------ or----------------
-    int n;
-    cout<<"Enter the number: ";
-    cin>>n;
+    // int n;
+    // cout<<"Enter the number: ";
+    // cin>>n;
 
-    if(n>0 && (n&(n-1)) == 0) {
-        cout<<"Power of 2";
-    }
-    else {
-        cout<<"Not power of 2";
-    }
+    // if(n>0 && (n&(n-1)) == 0) {
+    //     cout<<"Power of 2";
+    // }
+    // else {
+    //     cout<<"Not power of 2";
+    // }
+    // -------------------------------------------------
+
+    // Q8
+
+    // int n;
+    // cout<<"Enter the number: ";
+    // cin>>n;
+
+    // int count = 0;
+    // while(n != 0) {
+    //     n = (n>>1);
+    //     count++;
+    // }
+    // cout<<"Count is: "<<count<<endl;
+    // -----------------------------------------------------
+
+    // Q9
+
+    int a, b;
+    cout << "Enter the value of a and b: ";
+    cin >> a >> b;
+
+    a = a ^ b;
+    b = a ^ b;
+    a = a ^ b;
+
+    cout << "Swapped: " << "a = " << a << " " << "b = " << b << endl;
 }

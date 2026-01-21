@@ -13,9 +13,29 @@ else if(n>>31) {
     }
 )
 
-11. Check if a number is divisible by 4
+11. Check if a number is divisible by 4 ✅
+(hint:
+Jo number 4 se divisible hota hai, uske last 2 binary bits hamesha "00" hote hain
 
-12. Find position of rightmost set bit
+    if ((n & 3) == 0) {
+        cout << "Divisible by 4";
+    } else {
+        cout << "Not divisible by 4";
+    }
+)
+
+12. Find position of rightmost set bit ✅
+(hint:
+=> n & (-n)
+
+int pos = 0;
+    int rightmost = (n&(-n));
+
+    while(rightmost > 1) {
+        rightmost = rightmost >> 1;
+        pos++;
+    }
+)
 
 13. Turn off the rightmost set bit
 

@@ -37,12 +37,41 @@ int pos = 0;
     }
 )
 
-13. Turn off the rightmost set bit
+13. Turn off the rightmost set bit ✅
+(hint:
+int result = n & (n - 1);
+)
 
-14. Check if two numbers have opposite signs
+14. Check if two numbers have opposite signs ✅
+(hint:
+if ((a ^ b) < 0)
+    {
+        cout << "both have opposite signs";
+    }
+    else
+    {
+        cout << "both have same signs";
+    }
+)
 
-15. Multiply a number by 2ⁿ using bitwise
+15. Multiply a number by 2ⁿ using bitwise ✅
+(hint:
+int result = (x<<n);
+cout<<result;
+)
 
-16. Divide a number by 2ⁿ using bitwise
+16. Divide a number by 2ⁿ using bitwise ✅
+(hint:
+int result = (x>>n);
+cout<<result;
+)
 
-17. Check if ith bit is set or not (without extra variables)
+17. Check if ith bit is set or not (without extra variables) ✅
+(hint:
+if(n&(1<<i)) {
+        cout<<"i-th bit is set bit";
+    }
+    else {
+        cout<<"i-th bit is not set bit";
+    }
+)

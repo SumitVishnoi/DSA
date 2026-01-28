@@ -1,13 +1,24 @@
 🔰 Level 3 (Patterns & Tricks)
 
-18. Count trailing zeros in binary representation
+18. Count trailing zeros in binary representation ✅
+(hint: 
+n&(-n)
+)
 
-19. Find MSB (Most Significant Bit) position
+19. Find MSB (Most Significant Bit) position 
 
 20. Check if a number is of form (2ⁿ − 1)
 
-21. Check if number is a multiple of 3 using bitwise
+21. Check if number is a multiple of 3 using bitwise ✅
+(hint:
+  n = abs(n);   // handle negative numbers
 
+int pos = 0;
+while (n > 1) {
+    n = n >> 1;
+    pos++;
+}
+)
 22. Add two numbers without using + operator
 
 23. Subtract two numbers without using − operator

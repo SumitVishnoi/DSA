@@ -5,11 +5,7 @@
 n&(-n)
 )
 
-19. Find MSB (Most Significant Bit) position 
-
-20. Check if a number is of form (2ⁿ − 1)
-
-21. Check if number is a multiple of 3 using bitwise ✅
+19. Find MSB (Most Significant Bit) position ✅
 (hint:
   n = abs(n);   // handle negative numbers
 
@@ -19,6 +15,19 @@ while (n > 1) {
     pos++;
 }
 )
+
+20. Check if a number is of form (2ⁿ − 1) ✅
+(hint:
+
+    if (n > 0 && (n & (n + 1)) == 0) {
+        cout << "Number is of form (2^n - 1)";
+    } else {
+        cout << "Number is NOT of form (2^n - 1)";
+    }
+)
+
+21. Check if number is a multiple of 3 using bitwise 
+
 22. Add two numbers without using + operator
 
 23. Subtract two numbers without using − operator

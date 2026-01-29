@@ -47,6 +47,16 @@ int main()
 
     // Q20
     
+    int n;
+    cout<<"Enter the number: ";
+    cin>>n;
+
+    
+    if (n > 0 && (n & (n + 1)) == 0) {
+        cout << "Number is of form (2^n - 1)";
+    } else {
+        cout << "Number is NOT of form (2^n - 1)";
+    }
     // ---------------------------------------------
     // Q22
 

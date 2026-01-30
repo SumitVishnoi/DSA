@@ -47,17 +47,51 @@ int main()
 
     // Q20
     
-    int n;
-    cout<<"Enter the number: ";
-    cin>>n;
+    // int n;
+    // cout<<"Enter the number: ";
+    // cin>>n;
 
     
-    if (n > 0 && (n & (n + 1)) == 0) {
-        cout << "Number is of form (2^n - 1)";
-    } else {
-        cout << "Number is NOT of form (2^n - 1)";
-    }
+    // if (n > 0 && (n & (n + 1)) == 0) {
+    //     cout << "Number is of form (2^n - 1)";
+    // } else {
+    //     cout << "Number is NOT of form (2^n - 1)";
+    // }
     // ---------------------------------------------
+
+    // Q21
+
+    // int n;
+    // cout<<"Enter the number: ";
+    // cin>>n;
+
+    // n = abs(n);
+
+    // int evenCount = 0;
+    // int oddCount = 0;
+    // int pos = 0;
+
+    // while(n>0) {
+    //     if(n&1) {
+    //         if(pos%2 == 0) {
+    //             evenCount++;
+    //         }
+    //         else {
+    //             oddCount++;
+    //         }
+    //     }
+    //     n = n >> 1;
+    //     pos++;
+    // }
+
+    // if(abs(evenCount - oddCount) == 0) {
+    //     cout<<"Multiple of 3";
+    // }
+    // else {
+    //     cout<<"Not a multiple of 3";
+    // }
+    // --------------------------------------------
+
     // Q22
 
     // int a, b;
@@ -71,4 +105,38 @@ int main()
     // }
 
     // cout<<"Sum is: "<<a<<endl;
+    // ----------------------------------------------------
+
+    // Q24
+
+    // int n;
+    // cout<<"Enter the number: ";
+    // cin>>n;
+
+    // int i = 1;
+    // int prev = 0;
+    // while(i <= n) {
+    //     prev = prev ^ i;
+    //     i++;
+    // }
+
+    // cout<<"XOR of numbers from 1 to n: "<<prev<<endl;
+
+    // ------------------- or-------------------
+    int n;
+    cout << "Enter n: ";
+    cin >> n;
+
+    int result;
+
+    if (n % 4 == 0)
+        result = n;
+    else if (n % 4 == 1)
+        result = 1;
+    else if (n % 4 == 2)
+        result = n + 1;
+    else
+        result = 0;
+
+    cout << "XOR from 1 to n is: " << result;
 }

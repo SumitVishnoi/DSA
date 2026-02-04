@@ -107,6 +107,22 @@ int main()
     // cout<<"Sum is: "<<a<<endl;
     // ----------------------------------------------------
 
+    // Q23
+
+    // int a, b;
+    // cout<<"Enter the value of a and b: ";
+    // cin>>a>>b;
+
+    // b = -b;
+    // while(b != 0) {
+    //     int carry = a & b;
+    //     a = a ^ b;
+    //     b = carry<<1;
+    // }
+
+    // cout<<"Sub: "<<a<<endl;
+    // --------------------------------------------
+
     // Q24
 
     // int n;
@@ -123,20 +139,21 @@ int main()
     // cout<<"XOR of numbers from 1 to n: "<<prev<<endl;
 
     // ------------------- or-------------------
-    int n;
-    cout << "Enter n: ";
-    cin >> n;
+    // int n;
+    // cout << "Enter n: ";
+    // cin >> n;
 
-    int result;
+    // int result;
 
-    if (n % 4 == 0)
-        result = n;
-    else if (n % 4 == 1)
-        result = 1;
-    else if (n % 4 == 2)
-        result = n + 1;
-    else
-        result = 0;
+    // if (n % 4 == 0)
+    //     result = n;
+    // else if (n % 4 == 1)
+    //     result = 1;
+    // else if (n % 4 == 2)
+    //     result = n + 1;
+    // else
+    //     result = 0;
 
-    cout << "XOR from 1 to n is: " << result;
+    // cout << "XOR from 1 to n is: " << result;
+    // ---------------------------------------------
 }

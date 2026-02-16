@@ -41,3 +41,23 @@ using namespace std;
 //         }
 //     }
 // }
+
+
+// -----------------------------------------
+
+int main() {
+    int n;
+    cout<<"Enter the number: ";
+    cin>>n;
+
+    int num = 2;
+    int count = 0;
+    for(int i=2; i<n; i++) {
+        for (int j=i; j<num; j++) {
+            if(num%j == 0) {
+                return 0;
+            }
+            
+        }
+        count++;
+}

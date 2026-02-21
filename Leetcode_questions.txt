@@ -1,0 +1,59 @@
+Constraints:
+
+1 <= nums.length <= 3 * 104
+-3 * 104 <= nums[i] <= 3 * 104
+
+
+🟢 🔁 Loop + Condition Based
+
+Fizz Buzz – LeetCode #412
+
+Ugly Number – LeetCode #263
+
+Perfect Number – LeetCode #507
+
+Valid Perfect Square – LeetCode #367
+
+Self Dividing Numbers – LeetCode #728
+
+
+🟢 🧮 Bit Manipulation (Basic Level)
+
+Single Number – LeetCode #136
+
+Missing Number – LeetCode #268
+
+Power of Four – LeetCode #342
+
+Binary Number with Alternating Bits – LeetCode #693
+
+Complement of Base 10 Integer – LeetCode #1009
+
+👉 Ye XOR, AND, shifts wali practice ke liye perfect hain.
+
+
+
+🟢 📦 Simple Array Logic
+
+Two Sum – LeetCode #1
+
+Remove Duplicates from Sorted Array – #26
+
+Merge Sorted Array – #88
+
+Best Time to Buy and Sell Stock – #121
+
+Move Zeroes – #283
+
+
+🟢 🔤 Basic String Logic
+
+Valid Anagram – #242
+
+First Unique Character in a String – #387
+
+Valid Palindrome – #125
+
+Length of Last Word – #58
+
+Implement strStr() – #28

@@ -45,19 +45,47 @@ using namespace std;
 
 // -----------------------------------------
 
-int main() {
-    int n;
-    cout<<"Enter the number: ";
-    cin>>n;
+// int main() {
+//     int n;
+//     cout<<"Enter the number: ";
+//     cin>>n;
 
-    int num = 2;
-    int count = 0;
-    for(int i=2; i<n; i++) {
-        for (int j=i; j<num; j++) {
-            if(num%j == 0) {
-                return 0;
-            }
+//     int num = 2;
+//     int count = 0;
+//     for(int i=2; i<n; i++) {
+//         for (int j=i; j<num; j++) {
+//             if(num%j == 0) {
+//                 return 0;
+//             }
             
+//         }
+//         count++;
+// }
+
+// --------------------------------------
+
+// ------------three sum----------------//
+// void printArray(int arr[], int n) {
+//     for(int i=0; i)
+// }
+void threeSum(int arr[], int n) {
+    int ans = 0;
+    for(int i=0; i<n; i++) {
+        // cout<<"first: "<<i<<endl;
+        for(int j=i+1; j<n; j++) {
+            // cout<<"second: "<<j<<endl;
+            for(int k=j+1; k<n; k++) {
+                if(arr[i] + arr[j] + arr[k] == 0) {
+                    cout<<i<<j<<k<<endl;
+                }
+            }
         }
-        count++;
+    }
+}
+
+int main(){
+    int arr[6] = {-1, 0, 1, 2, -1, -4};
+
+    threeSum(arr, 6);
+
 }

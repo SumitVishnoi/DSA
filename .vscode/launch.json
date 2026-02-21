@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Hp/Desktop/DSA/Pattern",
-      "program": "c:/Users/Hp/Desktop/DSA/Pattern/build/Debug/outDebug",
+      "cwd": "c:/Users/Hp/Desktop/DSA/LeetCode",
+      "program": "c:/Users/Hp/Desktop/DSA/LeetCode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

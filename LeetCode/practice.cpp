@@ -68,24 +68,27 @@ using namespace std;
 // void printArray(int arr[], int n) {
 //     for(int i=0; i)
 // }
-void threeSum(int arr[], int n) {
-    int ans = 0;
-    for(int i=0; i<n; i++) {
-        // cout<<"first: "<<i<<endl;
-        for(int j=i+1; j<n; j++) {
-            // cout<<"second: "<<j<<endl;
-            for(int k=j+1; k<n; k++) {
-                if(arr[i] + arr[j] + arr[k] == 0) {
-                    cout<<i<<j<<k<<endl;
-                }
-            }
-        }
-    }
-}
+// void threeSum(int arr[], int n) {
+//     int ans = 0;
+//     for(int i=0; i<n; i++) {
+//         // cout<<"first: "<<i<<endl;
+//         for(int j=i+1; j<n; j++) {
+//             // cout<<"second: "<<j<<endl;
+//             for(int k=j+1; k<n; k++) {
+//                 if(arr[i] + arr[j] + arr[k] == 0) {
+//                     cout<<i<<j<<k<<endl;
+//                 }
+//             }
+//         }
+//     }
+// }
 
-int main(){
-    int arr[6] = {-1, 0, 1, 2, -1, -4};
+// int main(){
+//     int arr[6] = {-1, 0, 1, 2, -1, -4};
 
-    threeSum(arr, 6);
+//     threeSum(arr, 6);
 
-}
+// }
+
+
+

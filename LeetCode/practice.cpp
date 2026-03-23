@@ -1,5 +1,5 @@
-#include<iostream>
-#include<math.h>
+#include <iostream>
+#include <math.h>
 using namespace std;
 
 // bool isHappy(int n) {
@@ -37,11 +37,10 @@ using namespace std;
 //         }
 //         else {
 //             cout<<"Prime"<<endl;
-            
+
 //         }
 //     }
 // }
-
 
 // -----------------------------------------
 
@@ -57,7 +56,7 @@ using namespace std;
 //             if(num%j == 0) {
 //                 return 0;
 //             }
-            
+
 //         }
 //         count++;
 // }
@@ -90,5 +89,40 @@ using namespace std;
 
 // }
 
+/////////////////////////////////////////////////////////
 
+#include <iostream>
+using namespace std;
 
+int sumOfArray(int arr[], int n)
+{
+    int sum = 0;
+    for (int i = 0; i < n; i++)
+    {
+        sum += i * arr[i];
+    }
+    return sum;
+}
+
+int main()
+{
+    int arr[4] = {4, 3, 2, 6};
+    int n = 4;
+    int maxi = 0;
+
+    for (int k = 0; k < n; k++)
+    {
+        int temp[4];
+
+        // rotate array by k
+        for (int i = 0; i < n; i++)
+        {
+            temp[(i + k) % n] = arr[i];
+        }
+
+        int sum = sumOfArray(temp, n);  // FIX: use temp
+        maxi = max(maxi, sum);
+    }
+
+    cout<<maxi<<endl;
+}
